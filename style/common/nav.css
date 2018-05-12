@@ -1,0 +1,27 @@
+
+.nav {
+    font-family: "Raleway",sans-serif;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.87);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+.nav ul {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.nav a {
+    user-select: none;
+    text-decoration:none;
+    text-transform: uppercase;
+    color: #fff;
+}
